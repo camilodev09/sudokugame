@@ -5,7 +5,6 @@ contactForm.addEventListener("submit", async (event) => {
 
   const formData = {
     name: document.getElementById("name").value,
-
     phone: document.getElementById("phone").value,
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
@@ -14,7 +13,6 @@ contactForm.addEventListener("submit", async (event) => {
   console.log("FormData:", formData);
   console.log("Email:", formData.email);
   console.log("Message:", formData.message);
-  console.log("Message:", formData.lastname);
 
   const response = await fetch("/contact", {
     method: "POST",

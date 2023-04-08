@@ -18,7 +18,7 @@ app.post("/contact", (req, res) => {
   const { email, message, name, phone } = req.body;
   console.log("Received email:", email);
   console.log("Received message:", message);
-  console.log("Received message:", lastname);
+
   const transporter = nodemailer.createTransport({
     host: "smtp.zoho.com",
     port: 465,
