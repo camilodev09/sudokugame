@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/svg" href="./assets/8.svg">
     <title>Sudoku Games</title>
     <link href="/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -14,35 +15,35 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-[#000123]">
+  <body class="bg-[#000123] " >
     <!-- header -->
-    <header class="">
-      <div class="container h-20">
-        <nav class="flex justify-between items-center py-4 text-white">
+    <header  class="headerx">
+ 
+        <nav class="container">
           <img
             src="./assets/logoletra.svg"
-            class="font-bold text-xl text-white-800 w-40 md:max-w-screen"
+            class="font-bold text-xl text-white w-40 "
           />
 
-          <div class="flex p-5 md:p-0">
-            <a href="#" class="text-gray-400 hover:text-gray-100 font-Orbitron">
+          <div class="flex p-5 ">
+            <a href="#" class="text-white hover:text-gray-100 font-Orbitron">
               <i
-                class="fas fa-store ml-2 border-[1px] border-gray-400 rounded-full p-1 px-2"
+                class="fas fa-store ml-2 border-[1px] border-gray-200 rounded-full p-1 px-2"
               ></i
             ></a>
-            <a href="#" class="text-gray-400 hover:text-gray-100 font-Orbitron">
+            <a href="#" class="text-white hover:text-gray-100 font-Orbitron">
               <i
-                class="fas fa-phone ml-2 border-[1px] border-gray-400 rounded-full p-1 px-2"
+                class="fas fa-phone ml-2 border-[1px] border-gray-200 rounded-full p-1 px-2"
               >
               </i>
             </a>
           </div>
         </nav>
-      </div>
+   
     </header>
 
     <!-- hero section -->
-    <section class="bg-[#000123]">
+    <section class="bg-[#000123]" style="background-color: #000123;">
       <div class="flex items-center justify-center">
         <img
           src="./assets/banner.png"
@@ -71,7 +72,7 @@
             <div class="md:pt-8">
               <a
                 href="#"
-                class="border-[1px] border-white hover:bg-gradient-to-bl from-red-800 to-purple-800 text-white fond-light md:font-bold text-xs md:text-1xl py-1 px-1 rounded-lg"
+                class="border-[1px] border-white hover:bg-gradient-to-bl from-red-800 to-purple-800 text-white fond-light md:font-bold text-xs md:text-base py-1 px-1 rounded-lg"
                 >Contac Us
                 <i
                   class="fas fa-chevron-right ml-2 border-[1px] border-gray-400 rounded-full p-1 px-2 fa-xs"
@@ -99,7 +100,7 @@
       <div class="main px-4 relative">
         <div class="relative justify-center items-center flex">
           <img
-            src="../assets/banner2.png"
+            src="./assets/banner2.png"
             alt="Feature Image"
             class="rounded-md shadow-lg h-full"
           />
@@ -107,7 +108,7 @@
             class="absolute justify-center items-center mx-0 w-fit flex flex-col text-center"
           >
             <img
-              src="../assets/9.svg"
+              src="./assets/9.svg"
               alt="Feature Image"
               class="rounded-md shadow-lg h-full w-40 md:w-80"
             />
@@ -129,10 +130,10 @@
             </p>
             <a
               href="#"
-              class="border-[1px] border-white hover:bg-gradient-to-bl from-blue-800 to-purple-900 text-white fond-light md:font-bold py-1 px-2 fa-sm rounded-lg mt-5 animate-bounce"
-              >Go to Store
+              class="border-[1px] border-white hover:bg-gradient-to-bl from-blue-800 to-purple-900 text-white fond-light md:font-bold py-1 px-2 fa-sm rounded-lg mt-5 animate-pulse"
+              >More info
               <i
-                class="fas fa-store ml-2 border-[1px] border-gray-400 rounded-full p-1 px-1"
+                class="fas fa-info ml-2 border-[1px] border-gray-400 rounded-full p-1 px-1"
               ></i>
             </a>
           </div>
@@ -140,25 +141,26 @@
       </div>
     </section>
 
-    <section class="bg-[#000123] pt-10">
+    <section class="bg-[#000123] pt-10 w-full">
       <div class="">
         <div class="relative justify-center items-center flex">
           <img
-            src="../assets/banner4.png"
+            src="./assets/banner4.png"
             alt="Feature Image"
-            class="rounded-md shadow-lg h-[300px] md:h-[770px]"
+            class="rounded-md shadow-lg h-[300px] md:h-[770px] w-full"
           />
+          <!--ABSOLUTE-->
           <div
-            class="absolute flex flex-col md:flex-row right-3 p-2 md:p-10 justify-center items-center"
+            class="absolute flex flex-col lg:flex-row right-3 p-2 md:p-10 justify-center items-center"
           >
-            <div class="flex p-5 items-center justify-center">
+            
               <h2
-                class="text-1xl md:text-5xl font-bold text-[#00FECA] font-Orbitron rounded-md uppercase text-center px-12 pb-4"
+                class="text-1xl md:text-4xl font-bold text-[#00FECA] font-Orbitron rounded-md uppercase text-center px-12 pb-4 "
               >
                 NEW CONSOLES FOR YOU
               </h2>
-            </div>
-            <div class="flex flex-col items-center justify-center p-8 mx-5">
+            
+           
               <p
                 class="text-yellow-400 font-bold font-Montserrat text-xs md:text-2xl md:pt-5 w-full text-center"
               >
@@ -174,20 +176,21 @@
                   class="fas fa-store ml-2 border-[1px] border-gray-400 rounded-full p-1 px-2"
                 ></i>
               </a>
-            </div>
+           
           </div>
+         <!--ABSOLUTE-->
         </div>
       </div>
     </section>
 
     <!-- card section -->
     <section>
-      <div>
+      <div class="join">
         <div
           class="flex flex-row justify-center items-center text-center mx-10"
         >
           <img
-            src="../assets/7.svg"
+            src="./assets/7.svg"
             alt="Feature Image"
             class="rounded-md shadow-lg h-40 md:h-full w-40 md:w-80"
           />
@@ -198,9 +201,9 @@
           </h2>
         </div>
         <div
-          class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-6 md:p-8 gap-10 md:gap-8 md:bg-gradient-to-b from-[#000123] to-black md:px-30"
+          class=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-6 md:p-8 gap-10 md:gap-8 md:bg-gradient-to-b from-[#000123] to-black md:px-30"
         >
-          <div class="p-5 md:p-20 rounded-md border-[1px] border-blue-950">
+          <div class="p-5 md:p-10 rounded-md border-[1px] border-blue-950">
             <h3 class="text-[#6606E9] uppercase text-center flex flex-col">
               <i class="fas fa-gamepad ml-2 px-2 fa-6x gap-4 p-4"></i>
               Unleash Your Inner <span class="text-[#EBEF1E]">Gamer</span>
@@ -210,9 +213,9 @@
               games and technology. Join us today!”
             </p>
           </div>
-
+               <!-- cards-->
           <div
-            class="shadow-black border-[1px] border-blue-950 p-5 md:p-10 rounded-md"
+            class="p-5 md:p-10 shadow-black border-[1px] border-blue-950  rounded-md"
           >
             <h3 class="text-[#FF0F7B] uppercase flex flex-col items-center">
               <i class="fas fa-users ml-2 px-2 fa-6x gap-4 p-4"></i>
@@ -226,7 +229,7 @@
               variety of games and welcoming atmosphere.
             </p>
           </div>
-
+            <!-- cards-->
           <div
             class="shadow-black border-[1px] border-blue-950 p-5 md:p-10 items-center justify-center rounded-md"
           >
@@ -260,14 +263,15 @@
           class="relative justify-center items-center flex bg-gradient-to-t from-[black] to-[#000123]"
         >
           <img
-            src="../assets/banner3.png"
+            src="./assets/banner3.png"
             alt="Feature Image"
             class="rounded-md shadow-lg h-[300px] md:h-[770px]"
           />
+            <!--absolute-->
           <div class="absolute flex">
-            <div
-              class="md:flex flex-row p-5 items-center justify-center gap-10"
-            >
+
+            <div class="flex flex-col  mdl:flex-row p-5 items-center justify-center gap-10" >
+
               <div
                 class="max-w-full md:w-1/2 items-center justify-center flex flex-col"
               >
@@ -284,38 +288,39 @@
                 <div class="border-gray-200 border-[1px] py-1 rounded-xl mx-10">
                   <p class="text-white text-center">With support by :</p>
                   <img
-                    src="../assets/logoletra.svg"
+                    src="./assets/logoletra.svg"
                     alt="Feature Image"
                     class="rounded-md shadow-lg h-full w-40 md:w-80"
                   />
                 </div>
               </div>
             </div>
+
           </div>
+             <!--absolute-->
         </div>
       </div>
     </section>
     <!-- o section -->
 
     <!-- o section -->
-    <section class="bg-[#000123]">
+    <section class="bg-[#000123] pb-20 pt-20">
       <div class="relative flex justify-center items-center">
         <img
-          src="../assets/banner5.png"
+          src="./assets/banner55.png"
           alt="Feature Image"
           class="rounded-md shadow-lg h-[300px] md:h-[770px]"
         />
         <div
-          class="absolute flex right-8 mx-10 px-12 justify-center items-center w-fit p-4"
+          class="absolute flex right-8 mx-10 px-12 justify-center items-center w-fit p-4 pt-20"
         >
-          <div class="flex flex-col md:mx-10 pr-1 md:pr-10 gap-4">
-            <h2
-              class="text-1xl md:text-5xl font-bold text-[#00FECA] font-Orbitron rounded-md uppercase text-center md:pb-5"
-            >
+          <div class="flex flex-col md:mx-10 pr-1 md:pr-10 gap-4 bg-red  rounded-lg">
+            <h2 class="hidden lg:flex  flex-row  text-1xl md:text-5xl font-bold text-[#00FECA] font-Orbitron rounded-md uppercase text-center md:pb-5" style="text-shadow: 4px 2px 1px yellow;">
               favorite games
-            </h2>
+          </h2>
+          
             <p
-              class="text-yellow-400 font-bold font-Montserrat text-xs md:text-2xl border-[1px] border-gray-500 rounded-xl text-center py-1 px-2 gap-4"
+              class=" bg-white   text-red-400 font-bold font-Montserrat text-xs md:text-2xl border-[1px] border-gray-400 rounded-xl text-center py-1 px-2 gap-4"
             >
               Take your gaming skills to the next level at our <br />
               top-notch gaming center.
@@ -323,7 +328,7 @@
             <div class="justify-center items-center flex">
               <a
                 href="#"
-                class="text-xs md:text-sm border-[1px] border-purple-500 hover:bg-gradient-to-bl from-red-800 to-purple-800 text-white fond-light md:font-bold px-1 py-1 md:px-4 rounded-lg"
+                class="as text-xs md:text-sm border-[1px] border-black     text-black fond-light md:font-bold px-1 py-1 md:px-4 rounded-lg"
                 >See More
                 <i
                   class="fas fa-chevron-right ml-2 border-[1px] border-gray-400 rounded-full p-1 px-2 fa-xs"
@@ -331,13 +336,14 @@
               </a>
             </div>
           </div>
+          
         </div>
       </div>
     </section>
 
     <!-- o section -->
     <section>
-      <div class="main grid grid-cols-1 md:grid-cols-2 p-5 md:p-5 gap-5">
+      <div class="main grid grid-cols-1 md:grid-cols-2 p-5 md:p-5 gap-10">
         <div class="grid justify-center items-center gap-4">
           <h2 class="font-Orbitron text-3xl font-bold text-yellow-200">
             Send us a message
@@ -404,7 +410,7 @@
               <textarea
                 name="message"
                 id="message"
-                class="rounded-md p-2 w-full"
+                class="rounded-md p-4 w-full"
                 style="color: black"
                 placeholder="Your message *"
               ></textarea>
@@ -457,21 +463,9 @@
           </div>
         </div>
 
-        <div class="grid mt-10">
-          <div class="relative">
-            <div class="absolute p-6 md:p-0">
-              <img
-                src="../assets/logoletra.svg"
-                alt="Feature Image"
-                class="rounded-md shadow-lg h-full w-40 md:w-80"
-              />
-              <span class="mx-10">
-                <p class="text-gray-400">Lima- Peru (51) 969 597 945</p>
-                <p class="text-gray-400">creazone.contact@gmail.com</p>
-                <p class="text-gray-400">www.creazone.pe</p>
-                <p class="text-gray-400">COPYRIGHT © 2021</p>
-              </span>
-            </div>
+        <div class="grid mt-10 ">
+          <div class="relative gap-5 flex">
+         
             <div class="justify-center items-center rounded-md">
               <img
                 src="./assets/lastbanner.png"
@@ -483,8 +477,55 @@
       </div>
     </section>
     <!-- FORMULARIO-->
-    <!-- FORMULARIO-->
 
+    <!-- FOOTER-->
+    <div class=" justify-center items-center pt-10 px-5 md:px-40 pb-5">
+
+      <div class="w-full py-4 md:py-10 h-auto grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-10 justify-center items-center">
+
+          <div class="w-full h-full flex flex-col gap-0 md:gap-1 justify-start items-center mb-1">
+              <span class="flex flex-col">
+                  <a href="https://www.creazone.pe" class="underline text-xs md:text-sm">www.creazone.pe</a>
+                  <p class="text-white text-xs md:text-sm">Copyright © 2021 All rights reserved</p>
+              </span>
+          </div>
+  
+          <div class="flex gap-4 md:px-4 mb-1 justify-center items-center">
+              
+  
+              <a href="https://www.facebook.com/profile.php?id=100065758831949">
+                  <span class="bannerIcon dark:text-gray-100 text-white">
+                      <i class="fab fa-facebook" style="font-size: 30px;"></i>
+                  </span>
+              </a>
+  
+              <a href="https://www.tiktok.com/@creazone.pe?lang=es">
+                  <span class="bannerIcon dark:text-gray-100 text-white">
+                      <i class="fab fa-tiktok" style="font-size: 30px;"></i>
+                  </span>
+              </a>
+  
+              <a href="https://api.whatsapp.com/send?phone=51966301171&text=Hola,%20¿en%20qué%20puedo%20servirte?">
+                  <span class="bannerIcon dark:text-gray-100 text-white">
+                      <i class="fab fa-whatsapp" style="font-size: 30px;"></i>
+                  </span>
+              </a>
+          </div>
+
+      </div>
+
+  </div>
+  
+   <!--button call-->
+   <a id="whatsappButton" href="#" class="  px-4 ">
+    <span class="text-white">
+      <i class="fab fa-whatsapp fa-1x  "></i>
+    </span>
+  </a>
+     <!--button call-->
+    <!-- FOOTER-->
+   
     <script src="index.js"></script>
+    <script src="call.js"></script>
   </body>
 </html>

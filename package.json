@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.3.1"
+    "tailwindcss": "^3.3.3"
   },
   "name": "vanilla-papu",
   "version": "1.0.0",
