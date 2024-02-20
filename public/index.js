@@ -14,7 +14,7 @@ contactForm.addEventListener("submit", async (event) => {
   console.log("Email:", formData.email);
   console.log("Message:", formData.message);
 
-  const response = await fetch("/contact", {
+  const response = await fetch("https://server-portfolio-beru.onrender.com/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
